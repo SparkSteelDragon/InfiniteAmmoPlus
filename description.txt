@@ -1,0 +1,10 @@
+Infinite Ammo Plus is a quality-of-life mod that introduces a variety of endless ammunition pouches and quivers. 
+These items allow you to carry infinite bullets, arrows, and other ammo types, freeing up inventory space and making combat smoother. 
+Designed to support both vanilla and popular mods like Calamity, Infinite Ammo Plus aims to integrate seamlessly into your playthrough, with balanced crafting recipes and consistent behavior.
+
+The inspiration was the modification of Endless Ammo Bags by UnVoicingCow:
+https://github.com/A-W031403/EndlessAmmoBags1.4.4.9
+
+I wrote the modification from 0, because the goal is to maximize and expand the amount of ammunition for my favorite class - the Ranger.
+
+As of the first version, there is only a chlorophyll bullet pouch and all the bullets from Calamity, as well as an infinite backpack for Rocket III and an infinite slime tank.

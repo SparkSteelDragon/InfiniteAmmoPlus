@@ -1,0 +1,121 @@
+Items: {
+	EndlessBubonicRoundPouch: {
+		DisplayName: Endless Bubonic Round Pouch
+		Tooltip:
+			'''
+			Spreads the plague on hit
+			Ignores 10% of enemy defense
+			'''
+	}
+
+	EndlessGelTank: {
+		DisplayName: Endless Gel Tank
+		Tooltip: Both tasty and flammable
+	}
+
+	EndlessBloodfireBulletPouch: {
+		DisplayName: Endless Bloodfire Bullet Pouch
+		Tooltip:
+			'''
+			Passes through tiles and accelerates your natural life regen on hit
+			Deals bonus damage based on your current life regen and natural life regen
+			This damage caps at 35
+			'''
+	}
+
+	EndlessChlorophyteBulletPouch: {
+		DisplayName: Endless Chlorophyte Bullet Pouch
+		Tooltip: Chases after your enemy
+	}
+
+	EndlessDryadsTearPouch: {
+		DisplayName: Endless Dryads Tear Pouch
+		Tooltip: Splits into homing nature shards on impact which ignore enemy defense
+	}
+
+	EndlessFlashRoundPouch: {
+		DisplayName: Endless Flash Round Pouch
+		Tooltip: Gives off a concussive blast that confuses enemies in a large area for a short time
+	}
+
+	EndlessGodSlayerSlugPouch: {
+		DisplayName: Endless God Slayer Slug Pouch
+		Tooltip:
+			'''
+			Heavy ammunition with unlimited piercing that tears through spacetime
+			After a slug lands a hit, if it strikes a wall or runs out of targets to pierce,
+			it warps backwards through space and supercharges, exploding on impact
+			'''
+	}
+
+	EndlessHailstormBulletPouch: {
+		DisplayName: Endless Hailstorm Bullet Pouch
+		Tooltip:
+			'''
+				Bullets imbued with potent ice magic
+				These bullets rapidly decelerate after being fired
+				Critical hits cause a flash freeze, dealing additional damage and freezing normal enemies
+			'''
+	}
+
+	EndlessHallowPointRoundPouch: {
+		DisplayName: Endless Hallow Point Round Pouch
+		Tooltip:
+			'''
+				Gallant light deals 6 bonus damage on hit
+				This effect does not occur if the bullets are converted by special guns
+			'''
+	}
+
+	EndlessHolyFireBulletPouch: {
+		DisplayName: Endless Holy Fire Bullet Pouch
+		Tooltip:
+			'''
+			Explosive holy bullets
+			Explosions are larger right when the bullets are fired
+			'''
+	}
+
+	EndlessHyperiusBulletPouch: {
+		DisplayName: Endless Hyperius Bullet Pouch
+		Tooltip:
+			'''
+			Powerful multicolor bullets
+			Bullets split into swirling lights on impact
+			'''
+	}
+
+	EndlessMarksmanRoundPouch: {
+		DisplayName: Endless Marksman Round Pouch
+		Tooltip:
+			'''
+			A carefully crafted round which can be ricocheted off of midair coins
+			This allows other guns to utilize the coins tossed by Crackshot Colt and Midas Prime
+			'''
+	}
+
+	EndlessMortarRoundPouch: {
+		DisplayName: Endless Mortar Round Pouch
+		Tooltip:
+			'''
+			Specialized high explosive rounds with a large blast radius
+			Will destroy tiles
+			Used by normal guns
+			'''
+	}
+
+	EndlessRubberMortarRoundPouch: {
+		DisplayName: Endless Rubber Mortar Round Pouch
+		Tooltip:
+			'''
+				Specialized high explosive rounds with a large blast radius
+				Will destroy tiles on each bounce
+				Used by normal guns
+			'''
+	}
+
+	EndlessRocketIIISatchel: {
+		DisplayName: Endless Rocket III Satchel
+		Tooltip: Kaboom. Repeat. Forever.
+	}
+}

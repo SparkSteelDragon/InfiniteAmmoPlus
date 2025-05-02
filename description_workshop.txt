@@ -1,0 +1,20 @@
+[h1] Infinite Ammo Plus [/h1]
+
+[h2] Overview [/h2]
+
+[b]Infinite Ammo Plus[/b] is a mod designed to enhance your Terraria experience by providing infinite ammunition options for various weapons. Say goodbye to running out of ammo during intense battles!
+
+[h2] Features [/h2]
+
+[list]
+    [*] Infinite ammo for a wide range of weapons.
+    [*] Balanced gameplay to ensure fair use of endless ammunition.
+    [*] Easy to craft and use items for endless ammo.
+[/list]
+
+[h2] Compatibility [/h2]
+
+This mod is compatible with most other mods and works seamlessly with the latest version of tModLoader.
+
+[h3] Note: [/h3]
+For any issues or suggestions, feel free to reach out to the mod developer.

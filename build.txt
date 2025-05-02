@@ -1,0 +1,3 @@
+displayName = Infinite Ammo Plus
+author = SteelDragon
+version = 0.1
