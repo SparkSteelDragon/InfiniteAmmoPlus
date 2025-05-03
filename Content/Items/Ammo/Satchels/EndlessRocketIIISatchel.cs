@@ -34,5 +34,10 @@ namespace InfiniteAmmoPlus.Content.Items.Ammo.Satchels
             recipe.AddTile(TileID.CrystalBall);
             recipe.Register();
         }
+
+        public override void PickAmmo(Item weapon, Player player, ref int type, ref float speed, ref StatModifier damage, ref float knockback)
+        {
+            AmmoUtils.TryOverrideProjectile("RocketIII", weapon, ref type);
+        }
     }
 }
