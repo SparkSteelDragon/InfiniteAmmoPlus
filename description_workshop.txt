@@ -16,5 +16,10 @@
 
 This mod is compatible with most other mods and works seamlessly with the latest version of tModLoader.
 
+[h2] Inspiration [/h2]
+
+This mod was inspired by the [b]Endless Ammo Bags[/b] modification by UnVoicingCow. 
+You can find their work here: [url]https://github.com/A-W031403/EndlessAmmoBags1.4.4.9[/url].
+
 [h3] Note: [/h3]
 For any issues or suggestions, feel free to reach out to the mod developer.
