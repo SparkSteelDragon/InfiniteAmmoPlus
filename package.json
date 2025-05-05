@@ -1,0 +1,26 @@
+{
+  "name": "infiniteammoplus",
+  "version": "1.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "release-it --no-push --config ./scripts/release-it.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SparkSteelDragon/InfiniteAmmoPlus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SparkSteelDragon/InfiniteAmmoPlus/issues"
+  },
+  "homepage": "https://github.com/SparkSteelDragon/InfiniteAmmoPlus#readme",
+  "description": "",
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^10.0.1",
+    "conventional-changelog-cli": "^5.0.0",
+    "release-it": "^19.0.2"
+  }
+}
