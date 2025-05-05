@@ -38,3 +38,16 @@ module.exports = {
     console.log(`✅ Updated InfiniteAmmoPlus.csproj to version ${version}`);
   }
 };
+
+// Run the script directly if this file is executed
+if (require.main === module) {
+  const packageJson = require('../package.json');
+  const version = packageJson.version;
+
+  if (!version) {
+    console.error('❌ Version not found in package.json');
+    process.exit(1);
+  }
+
+  module.exports.bump({ version });
+}

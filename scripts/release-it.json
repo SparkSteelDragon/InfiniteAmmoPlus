@@ -11,6 +11,6 @@
         "publish": false
     },
     "hooks": {
-        "after:bump": "npx conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md package.json"
+        "after:bump": "node ./scripts/update-project-versions.js && npx conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md package.json"
     }
 }
