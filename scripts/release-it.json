@@ -1,0 +1,16 @@
+{
+    "git": {
+        "requireCleanWorkingDir": true,
+        "commit": true,
+        "tag": true,
+        "tagName": "v${version}",
+        "commitMessage": "chore(release): v${version}",
+        "push": false
+    },
+    "npm": {
+        "publish": false
+    },
+    "hooks": {
+        "after:bump": "node ./scripts/update-project-versions.js && npx conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md package.json"
+    }
+}

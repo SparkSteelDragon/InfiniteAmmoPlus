@@ -1,10 +1,23 @@
-Infinite Ammo Plus is a quality-of-life mod that introduces a variety of endless ammunition pouches and quivers. 
-These items allow you to carry infinite bullets, arrows, and other ammo types, freeing up inventory space and making combat smoother. 
-Designed to support both vanilla and popular mods like Calamity, Infinite Ammo Plus aims to integrate seamlessly into your playthrough, with balanced crafting recipes and consistent behavior.
+Infinite Ammo Plus
 
-The inspiration was the modification of Endless Ammo Bags by UnVoicingCow:
-https://github.com/A-W031403/EndlessAmmoBags1.4.4.9
+Overview
 
-I wrote the modification from 0, because the goal is to maximize and expand the amount of ammunition for my favorite class - the Ranger.
+Infinite Ammo Plus is a mod designed to enhance your Terraria experience by providing infinite ammunition options for various weapons. Say goodbye to running out of ammo during intense battles!
 
-As of the first version, there is only a chlorophyll bullet pouch and all the bullets from Calamity, as well as an infinite backpack for Rocket III and an infinite slime tank.
+Features
+
+- Infinite ammo for a wide range of weapons.
+- Balanced gameplay to ensure fair use of endless ammunition.
+- Easy to craft and use items for endless ammo.
+
+Compatibility
+
+This mod is compatible with most other mods and works seamlessly with the latest version of tModLoader.
+
+Inspiration
+
+This mod was inspired by the Endless Ammo Bags modification by UnVoicingCow. 
+You can find their work here: https://github.com/A-W031403/EndlessAmmoBags1.4.4.9.
+
+Note:
+For any issues or suggestions, feel free to reach out to the mod developer.
