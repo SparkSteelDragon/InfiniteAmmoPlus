@@ -4,7 +4,7 @@ using Terraria.ModLoader;
 public static class CustomLogger
 {
     // path to the log file
-    private static string logFilePath = Path.Combine(ModLoader.ModPath, "mod_log.txt");
+    private static string logFilePath = Path.Combine(ModLoader.ModPath, "infinite-ammo-plus_log.txt");
 
     public static void Log(string message)
     {
