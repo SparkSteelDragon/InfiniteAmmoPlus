@@ -42,19 +42,89 @@ namespace InfiniteAmmoPlus.Content.Utils
     {
         private static readonly Dictionary<string, List<AmmoOverrideEntry>> AmmoSets = new()
         {
+            ["RocketI"] = new List<AmmoOverrideEntry>
+            {
+                new("Terraria:RocketLauncher", "Terraria:RocketI"),
+                new("Terraria:GrenadeLauncher", "Terraria:GrenadeI"),
+                new("Terraria:ProximityMineLauncher", "Terraria:ProximityMineI"),
+                new("Terraria:SnowmanCannon", "Terraria:RocketSnowmanI"),
+            },
+            ["RocketII"] = new List<AmmoOverrideEntry>
+            {
+                new("Terraria:RocketLauncher", "Terraria:RocketII"),
+                new("Terraria:GrenadeLauncher", "Terraria:GrenadeII"),
+                new("Terraria:ProximityMineLauncher", "Terraria:ProximityMineII"),
+                new("Terraria:SnowmanCannon", "Terraria:RocketSnowmanII"),
+            },
             ["RocketIII"] = new List<AmmoOverrideEntry>
             {
                 new("Terraria:RocketLauncher", "Terraria:RocketIII"),
                 new("Terraria:GrenadeLauncher", "Terraria:GrenadeIII"),
                 new("Terraria:ProximityMineLauncher", "Terraria:ProximityMineIII"),
-                new("Terraria:Celeb2", "Terraria:Celeb2RocketLarge"),
                 new("Terraria:SnowmanCannon", "Terraria:RocketSnowmanIII"),
-                new("CalamityMod:ShriekingLauncher", "CalamityMod:ShriekingRocket"),
             },
-            ["ClusterI"] = new List<AmmoOverrideEntry>
+            ["RocketIV"] = new List<AmmoOverrideEntry>
+            {
+                new("Terraria:RocketLauncher", "Terraria:RocketIV"),
+                new("Terraria:GrenadeLauncher", "Terraria:GrenadeIV"),
+                new("Terraria:ProximityMineLauncher", "Terraria:ProximityMineIV"),
+                new("Terraria:SnowmanCannon", "Terraria:RocketSnowmanIV"),
+            },
+            ["ClusterRocketI"] = new List<AmmoOverrideEntry>
             {
                 new("Terraria:RocketLauncher", "Terraria:ClusterRocketI"),
                 new("Terraria:GrenadeLauncher", "Terraria:ClusterGrenadeI"),
+                new("Terraria:ProximityMineLauncher", "Terraria:ClusterMineI"),
+                new("Terraria:SnowmanCannon", "Terraria:ClusterSnowmanRocketI"),
+            },
+            ["ClusterRocketII"] = new List<AmmoOverrideEntry>
+            {
+                new("Terraria:RocketLauncher", "Terraria:ClusterRocketII"),
+                new("Terraria:GrenadeLauncher", "Terraria:ClusterGrenadeII"),
+                new("Terraria:ProximityMineLauncher", "Terraria:ClusterMineII"),
+                new("Terraria:SnowmanCannon", "Terraria:ClusterSnowmanRocketII"),
+            },
+            ["WetRocket"] = new List<AmmoOverrideEntry>
+            {
+                new("Terraria:RocketLauncher", "Terraria:WetRocket"),
+                new("Terraria:GrenadeLauncher", "Terraria:WetGrenade"),
+                new("Terraria:ProximityMineLauncher", "Terraria:WetMine"),
+                new("Terraria:SnowmanCannon", "Terraria:WetSnowmanRocket"),
+            },
+            ["LavaRocket"] = new List<AmmoOverrideEntry>
+            {
+                new("Terraria:RocketLauncher", "Terraria:LavaRocket"),
+                new("Terraria:GrenadeLauncher", "Terraria:LavaGrenade"),
+                new("Terraria:ProximityMineLauncher", "Terraria:LavaMine"),
+                new("Terraria:SnowmanCannon", "Terraria:LavaSnowmanRocket"),
+            },
+            ["HoneyRocket"] = new List<AmmoOverrideEntry>
+            {
+                new("Terraria:RocketLauncher", "Terraria:HoneyRocket"),
+                new("Terraria:GrenadeLauncher", "Terraria:HoneyGrenade"),
+                new("Terraria:ProximityMineLauncher", "Terraria:HoneyMine"),
+                new("Terraria:SnowmanCannon", "Terraria:HoneySnowmanRocket"),
+            },
+            ["MiniNukeI"] = new List<AmmoOverrideEntry>
+            {
+                new("Terraria:RocketLauncher", "Terraria:MiniNukeI"),
+                new("Terraria:GrenadeLauncher", "Terraria:MiniNukeGrenadeI"),
+                new("Terraria:ProximityMineLauncher", "Terraria:MiniNukeMineI"),
+                new("Terraria:SnowmanCannon", "Terraria:MiniNukeSnowmanRocketI"),
+            },
+            ["MiniNukeII"] = new List<AmmoOverrideEntry>
+            {
+                new("Terraria:RocketLauncher", "Terraria:MiniNukeII"),
+                new("Terraria:GrenadeLauncher", "Terraria:MiniNukeGrenadeII"),
+                new("Terraria:ProximityMineLauncher", "Terraria:MiniNukeMineII"),
+                new("Terraria:SnowmanCannon", "Terraria:MiniNukeSnowmanRocketII"),
+            },
+            ["DryRocket"] = new List<AmmoOverrideEntry>
+            {
+                new("Terraria:RocketLauncher", "Terraria:DryRocket"),
+                new("Terraria:GrenadeLauncher", "Terraria:DryGrenade"),
+                new("Terraria:ProximityMineLauncher", "Terraria:DryMine"),
+                new("Terraria:SnowmanCannon", "Terraria:DrySnowmanRocket"),
             }
         };
 
