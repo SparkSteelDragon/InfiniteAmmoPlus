@@ -1,0 +1,75 @@
+name: Check Version Bump
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  version-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get version from PR branch (build.txt)
+        id: pr_build_version
+        run: |
+          PR_BUILD_VERSION=$(grep '^version' build.txt | cut -d '=' -f2 | tr -d ' ')
+          echo "PR build.txt version: $PR_BUILD_VERSION"
+          echo "pr_build_version=$PR_BUILD_VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Get version from PR branch (InfiniteAmmoPlus.csproj)
+        id: pr_csproj_version
+        run: |
+          PR_CSPROJ_VERSION=$(grep -oPm1 '(?<=<Version>)[^<]+' InfiniteAmmoPlus.csproj)
+          echo "PR csproj version: $PR_CSPROJ_VERSION"
+          echo "pr_csproj_version=$PR_CSPROJ_VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Checkout main branch files
+        run: |
+          git fetch origin main
+          git checkout origin/main -- build.txt InfiniteAmmoPlus.csproj
+
+      - name: Get version from main branch (build.txt)
+        id: main_build_version
+        run: |
+          MAIN_BUILD_VERSION=$(grep '^version' build.txt | cut -d '=' -f2 | tr -d ' ')
+          echo "Main build.txt version: $MAIN_BUILD_VERSION"
+          echo "main_build_version=$MAIN_BUILD_VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Get version from main branch (InfiniteAmmoPlus.csproj)
+        id: main_csproj_version
+        run: |
+          MAIN_CSPROJ_VERSION=$(grep -oPm1 '(?<=<Version>)[^<]+' InfiniteAmmoPlus.csproj)
+          echo "Main csproj version: $MAIN_CSPROJ_VERSION"
+          echo "main_csproj_version=$MAIN_CSPROJ_VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Compare build.txt versions (must be greater)
+        run: |
+          PR_VERSION="${{ steps.pr_build_version.outputs.pr_build_version }}"
+          MAIN_VERSION="${{ steps.main_build_version.outputs.main_build_version }}"
+          echo "🔍 Comparing build.txt: PR=$PR_VERSION vs Main=$MAIN_VERSION"
+          npm install -g semver
+          if npx semver "$PR_VERSION" -le "$MAIN_VERSION"; then
+            echo "❌ ERROR: Version in build.txt ($PR_VERSION) is not greater than main ($MAIN_VERSION)"
+            exit 1
+          else
+            echo "✅ build.txt version is OK"
+          fi
+
+      - name: Compare csproj versions (must be greater)
+        run: |
+          PR_VERSION="${{ steps.pr_csproj_version.outputs.pr_csproj_version }}"
+          MAIN_VERSION="${{ steps.main_csproj_version.outputs.main_csproj_version }}"
+          echo "🔍 Comparing csproj: PR=$PR_VERSION vs Main=$MAIN_VERSION"
+          npm install -g semver
+          if npx semver "$PR_VERSION" -le "$MAIN_VERSION"; then
+            echo "❌ ERROR: Version in InfiniteAmmoPlus.csproj ($PR_VERSION) is not greater than main ($MAIN_VERSION)"
+            exit 1
+          else
+            echo "✅ csproj version is OK"
+          fi
