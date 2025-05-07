@@ -114,8 +114,51 @@ Items: {
 			'''
 	}
 
+	EndlessRocketISatchel: {
+		DisplayName: Endless Rocket I Satchel
+		Tooltip:
+			'''
+			 			Classic. Reliable. Still highly likely to blow yourself up.
+			 		
+			'''
+	}
+
+	EndlessRocketIISatchel: {
+		DisplayName: Endless Rocket II Satchel
+		Tooltip:
+			'''
+			 			Slightly bigger boom, slightly bigger mess.
+			 			Clean-up not included.
+			 		
+			'''
+	}
+
 	EndlessRocketIIISatchel: {
 		DisplayName: Endless Rocket III Satchel
-		Tooltip: Kaboom. Repeat. Forever.
+		Tooltip:
+			'''
+			 			For when *enough* rockets is never enough.
+				Warning: May void warranties. And friendships.
+			 		
+			'''
+	}
+
+	EndlessClusterRocketISatchel: {
+		DisplayName: Endless Cluster Rocket I Satchel
+		Tooltip:
+			'''
+			 			Like a piñata—if the candy exploded and set your house on fire.
+			 		
+			'''
+	}
+
+	EndlessClusterRocketIISatchel: {
+		DisplayName: Endless Cluster Rocket II Satchel
+		Tooltip:
+			'''
+			 			Why stop at one explosion when you can have... so many more?
+				The neighbors love it. Probably.
+			 		
+			'''
 	}
 }
